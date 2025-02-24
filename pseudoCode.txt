@@ -1,0 +1,31 @@
+Başla
+  CSV dosyasını kontrol et, yoksa oluştur
+  Tüm hesapları belleğe yükle (HesaplarıYukle) (dict)
+
+  Ana Menü:
+    1 - Yeni hesap aç
+      Kullanıcıdan isim al
+      6 haneli hesap numarası oluştur
+      Şifre belirlemesini iste
+      Hesabı kaydet ve bilgilendir
+    2 - Hesaba giriş yap
+      Kullanıcıdan hesap numarası ve şifre al
+      Bilgiler doğruysa, kullanıcıya özel menüyü aç
+      Kullanıcı Menüsü:
+        1 - Para Yatır
+          Kullanıcıdan miktar al
+          Hesaba ekle
+          İşlem geçmişine kaydet
+        2 - Para Çek
+          Kullanıcıdan miktar al
+          Bakiye yeterliyse çek, işlem geçmişine ekle
+          Yetersizse uyarı ver
+        3 - Bakiye Sorgula
+          Kullanıcıya güncel bakiyeyi göster
+        4 - İşlem Geçmişi
+          Kullanıcının yaptığı işlemleri listele
+        5 - Çıkış
+          Kullanıcı menüden çıkış yapar
+    3 - Çıkış
+      
+Bitti
